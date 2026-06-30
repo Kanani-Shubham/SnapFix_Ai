@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-primary-yellow: #FFFC00;
+  --color-pale-yellow: #FFF7A6;
+  --color-brand-green: #4CAF50;
+  --color-brand-blue: #2196F3;
+  --color-brand-orange: #FF9800;
+  --color-brand-red: #F44336;
+  --color-brand-purple: #9C27B0;
+  --color-brand-cyan: #00BCD4;
+  --color-brand-light-gray: #F5F5F5;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

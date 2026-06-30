@@ -1,0 +1,11 @@
+{
+  "name": "SnapFix AI",
+  "description": "AI-powered hyperlocal civic issue reporting platform. Snap. Report. Resolve.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
